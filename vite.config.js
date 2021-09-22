@@ -8,7 +8,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      // '@vue-bridge/runtime': '@vue-bridge/runtime/vue3',
+      vue: "vue3",
+      "@vue-bridge/runtime": "@vue-bridge/runtime/vue3",
     },
   },
   build: {
